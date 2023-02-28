@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.pet-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.container {
+    margin: 0 1rem;
+    margin-top: 1rem;
+}
+
+h3,
+p {
+    padding: .2rem 0;
+}
+
+.btn-list button {
+    margin-top: 1rem;
+    padding: .5rem .8rem;
+}
+
+h1,
+h3 {
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #a00000;
+}
+
+button {
+    cursor: pointer;
+}
+
+.info {
+    height: 100px;
+    overflow-x: hidden;
+}
+
+
+.pet-box {
+    opacity: 1;
+    transition: all 1s ease;
+    border: 1px dashed;
+    padding: 1rem;
+}
+
+
+.pet-box.fade-out {
+    opacity: 0;
+}
